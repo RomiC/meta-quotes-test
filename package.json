@@ -1,0 +1,28 @@
+{
+  "name": "meta-quotes-test",
+  "version": "1.0.0",
+  "description": "MetaQuotes test task",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o -p 8881",
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomiC/meta-quotes-test.git"
+  },
+  "keywords": [
+    "MetaQuotes",
+    "test",
+    "task"
+  ],
+  "author": "Roman Charugin <i@charugin.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomiC/meta-quotes-test/issues"
+  },
+  "homepage": "https://github.com/RomiC/meta-quotes-test#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

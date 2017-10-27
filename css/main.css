@@ -1,0 +1,22 @@
+@import 'form.css';
+@import 'graph.css';
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+  body * {
+    box-sizing: border-box;
+  }
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
